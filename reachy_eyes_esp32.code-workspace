@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "esp32"
+		}
+	],
+	"settings": {
+		"chat.tools.terminal.autoApprove": {
+			"~/.platformio/penv/bin/pio": true,
+			"/^pio run -e native_sim 2>&1 \\| tail -20$/": {
+				"approve": true,
+				"matchCommandLine": true
+			}
+		}
+	}
+}

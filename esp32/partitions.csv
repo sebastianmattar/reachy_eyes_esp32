@@ -1,0 +1,9 @@
+# ESP32 4 MB flash — dual OTA app slots + LittleFS data partition for the gif.
+# Serial OTA (FWUPDATE command) writes the new image into the inactive ota_x slot,
+# then reboots into it; otadata records which slot is active.
+# Name,   Type, SubType, Offset,   Size,     Flags
+nvs,      data, nvs,     0x9000,   0x5000,
+otadata,  data, ota,     0xe000,   0x2000,
+ota_0,    app,  ota_0,   0x10000,  0x150000,
+ota_1,    app,  ota_1,   0x160000, 0x150000,
+spiffs,   data, spiffs,  0x2b0000, 0x150000,

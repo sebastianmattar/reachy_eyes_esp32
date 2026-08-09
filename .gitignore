@@ -1,0 +1,5 @@
+.pio
+*.pyc
+.DS_Store
+.venv
+.DS_Store
