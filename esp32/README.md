@@ -137,3 +137,11 @@ from `esp32/`). Point `$REACHY_GIF` at another file to play that one instead:
 ```bash
 REACHY_GIF=/path/to/other.gif .pio/build/native_sim/program
 ```
+
+The same key map works against a connected board — see
+[`../python/eye_console.py`](../python/eye_console.py), which sends the identical
+commands over serial from a terminal:
+
+```bash
+python python/eye_console.py     # from the repo root
+```

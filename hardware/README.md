@@ -15,8 +15,7 @@ worked for me.
 ## Additional parts
 
 - **Screws** — I just reused the ones from the Reachy Mini.
-- **USB-C cable** to connect the PCB to the board. I used a 15 cm flat flexible
-  USB cable with right-angled connectors from AliExpress.
+- **USB-C cable** to connect the PCB to the board -I used [these](https://www.amazon.de/dp/B0FMRND1BQ)
 - **Two GC9A01 1.28" round displays** — I used
   [these](https://www.amazon.de/kreisf%C3%B6rmiger-TFT-Bildschirm-Schnittstelle-Echtzeit%C3%BCberwachung-Instrumentenanzeige/dp/B0DB5MR27T/).
   They should look like this:
